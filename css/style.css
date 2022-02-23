@@ -265,6 +265,7 @@ line-height: 40px;
 
 .colfoot >img{
     padding-top: 30px;
+    float: left;
 }
 
 .colfoot >button{
@@ -272,7 +273,8 @@ line-height: 40px;
     color: white;
     padding: 15px;
     border-radius: 30px;
-    margin-left: 980px;
+    margin-top: 30px;
+    float: right;
     border: none;
 }
 
