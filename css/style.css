@@ -91,6 +91,10 @@
     background-color: black;
     color: white;
 }
+.bg_ft{
+    background-color: rgb(35, 39, 42);
+
+}
 
 .bg_gr{
     background-color: rgb(246, 246, 246);
@@ -100,7 +104,7 @@
 /* start site_main */
 .site_main{
     
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 .normal{
@@ -186,9 +190,6 @@
 }
 .download >h4{
     font-size: 30px;
-    
-
-    
 }
 
 .download >button{
@@ -200,5 +201,51 @@
     background-color: rgb(142, 162, 225);
     border-style: none;
 }
+/* end site main  */
+/* start site footer */
 
 
+.col25{
+    margin-top: 60px;
+    float: left;
+    width: 25%;
+    height: 80%;
+    line-height: 40px;
+}
+
+.col25 >img{
+    width: 20px;
+    vertical-align: middle;
+}
+
+.col25 >span{
+    font-size: 20px;
+    color: white;
+    word-spacing: 10px;
+}
+.col25 >h4{
+    font-size: 30px;
+    color: rgb(114, 137, 218);
+}
+.col16{
+float: left;
+width: 16%;
+margin-top: 60px;
+height: 80%;
+line-height: 40px;
+}
+
+.col16 >h6{
+    font-size: 20px;
+    color: rgb(114, 137, 218);
+}
+
+.col16 >ul{
+    list-style: none;
+}
+
+.col16 li>a{
+    text-decoration: none;
+    color: white;
+}
+/* end first part footer */
