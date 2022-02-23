@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
-
+/* start first header */
 .firstheader{
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -17,7 +17,7 @@
 }
 
 .container{
-    width: 70%;
+    width: 1440px;
     height: 600px;
     margin: auto;
 }
@@ -72,7 +72,7 @@
     padding: 50px 0;
 }
 .buttons >button{
-    padding: 15px;
+    padding: 15px 25px;
     border-radius: 30px;
     margin: 0 15px;
     font-size: 20px;
@@ -80,13 +80,77 @@
     word-spacing: 5px;
 }
 
+/*  colors */
 .bg_b{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 
 }
 
 .bg_n{
     background-color: black;
     color: white;
+}
 
+.bg_gr{
+    background-color: rgb(246, 246, 246);
+}
+
+/* end first header */
+/* start site_main */
+.site_main{
+    
+    height: 100vh;
+    width: 100%;
+}
+/* start site sections  */
+.site_section{
+    height: 650px;
+    width: 100%;
+}
+
+.main_container{
+  
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+}
+
+/* clearfix */
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col70{
+    float: left;
+    width: 70%;
+    padding-top: 100px;
+}
+.col30{
+    float: left;
+    width: 30%;
+    padding-top: 140px;
+    font-size: 30px;
+    
+}
+
+.col30 >p{
+    font-size: 20px;
+    padding-top: 30px;
+    line-height: 30px;
+}
+.padd-left{
+    padding-left: 200px;
+}
+/* end siste sections */
+
+.onda{
+    filter: opacity(4%);
+    margin-bottom: -4px;
+}
+
+.invert{
+    filter: invert(1);
+    background-color: rgba(246, 246, 246, 0.034);;
 }
